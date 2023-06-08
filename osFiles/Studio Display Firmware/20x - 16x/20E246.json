@@ -16,6 +16,7 @@
     ],
     "sources": [
         {
+            "type": "ota",
             "deviceMap": [
                 "AppleDisplay2,1"
             ],
