@@ -45,6 +45,7 @@
         "MacBookPro18,3",
         "MacBookPro18,4",
         "MacPro7,1",
+        "MacPro7,1-Rack",
         "Macmini8,1",
         "Macmini9,1",
         "VirtualMac2,1",
@@ -75,41 +76,30 @@
                 "Mac14,13",
                 "Mac14,14",
                 "Mac14,15",
-                "MacBookAir8,1",
-                "MacBookAir8,2",
-                "MacBookAir9,1",
                 "MacBookAir10,1",
-                "MacBookPro15,1-2018",
-                "MacBookPro15,1-2019",
-                "MacBookPro15,2-2018",
-                "MacBookPro15,2-2019",
-                "MacBookPro15,3-2018",
-                "MacBookPro15,3-2019",
-                "MacBookPro15,4",
-                "MacBookPro16,1",
-                "MacBookPro16,2",
-                "MacBookPro16,3",
-                "MacBookPro16,4",
                 "MacBookPro17,1",
                 "MacBookPro18,1",
                 "MacBookPro18,2",
                 "MacBookPro18,3",
                 "MacBookPro18,4",
-                "MacPro7,1",
-                "Macmini8,1",
                 "Macmini9,1",
                 "VirtualMac2,1",
-                "iMac19,1",
-                "iMac19,2",
-                "iMac20,1",
-                "iMac20,2",
                 "iMac21,1",
-                "iMac21,2",
-                "iMacPro1,1"
+                "iMac21,2"
             ],
             "links": [
                 {
                     "url": "https://download.developer.apple.com/WWDC_2023/macOS_14_Beta_Restore_Images/UniversalMac_14.0_23A5257q_Restore.ipsw",
+                    "preferred": false,
+                    "active": true
+                },
+                {
+                    "url": "http://adcdownload.apple.com/WWDC_2023/macOS_14_Beta_Restore_Images/UniversalMac_14.0_23A5257q_Restore.ipsw",
+                    "preferred": false,
+                    "active": true
+                },
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/WWDC_2023/macOS_14_Beta_Restore_Images/UniversalMac_14.0_23A5257q_Restore.ipsw",
                     "preferred": true,
                     "active": true
                 }
@@ -173,8 +163,12 @@
                 {
                     "url": "https://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg",
                     "preferred": true,
-                    "active": true,
-                    "catalog": "dev-beta"
+                    "active": true
+                },
+                {
+                    "url": "http://swcdn.apple.com/content/downloads/23/44/032-94352-A_DB05J15QWT/4x91v0yzolyiat5cat76ieu0h78aeu3d03/InstallAssistant.pkg",
+                    "preferred": false,
+                    "active": true
                 }
             ],
             "hashes": {
